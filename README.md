@@ -19,7 +19,7 @@ disk_mask_path = disk mask image generated for running Self Organizing Maps
 
 
 ### To train
-*Glaucoma.exe T <image_path> <image_mask_path> <output_save_path> <disk_mask_path>*
+    Glaucoma.exe T <image_path> <image_mask_path> <output_save_path> <disk_mask_path>
 
 Trained data will be saved in som_data.txt
 
@@ -35,7 +35,7 @@ cv::Mat somThresh(cv::Mat &inp,cv::Mat &mask){
 ```
 
 ### To run
-*Glaucoma.exe O <image_path> <image_mask_path> <output_save_path> <disk_mask_path>*
+    Glaucoma.exe O <image_path> <image_mask_path> <output_save_path> <disk_mask_path>
 
 ## Mask for fundus image
 Create image of same size as input image and set Region of interest (ROI) pixels to '255' and rest to '0'.
